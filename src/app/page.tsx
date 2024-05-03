@@ -14,7 +14,7 @@ import { motion } from "framer-motion";
 import { twMerge } from "tailwind-merge";
 import { cn } from "../../utils/cn";
 
-export const TextRevealCard = ({
+const TextRevealCard = ({
   text,
   revealText,
   children,
